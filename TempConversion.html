@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Temperature Conversion</title>
+  </head>
+  <body>
+    <header>
+        <h1>Temperature Conversion</h1>
+    </header>
+    <main>
+      
+      <form>
+        <label>Enter temperature:</label>
+        <input type="text" id="temperature-input" placeholder="e.g. 25">
+        <br>
+        <label>Select unit:</label>
+        <select id="unit-select">
+          <option value="celsius">Celsius</option>
+          <option value="fahrenheit">Fahrenheit</option>
+        </select>
+        <br><br>
+        <button type="button" id="convert-button">Convert</button>
+      </form>
+      <br>
+      <div id="output">
+        <p>Converted temperature: <span id="converted-temperature"></span></p>
+      </div>
+    </main>
+  </body>
+</html>
