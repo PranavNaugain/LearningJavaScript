@@ -1,0 +1,36 @@
+/* CSS styling for the calculator */
+.calculator {
+  width: 300px;
+  margin: 0 auto;
+  background-color: #f4f4f4;
+  padding: 20px;
+  border-radius: 10px;
+}
+.calculator input[type="text"] {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  background-color: white;
+  text-align: right;
+  font-size: 1.5em;
+}
+.calculator input[type="button"] {
+  width: 25%;
+  padding: 12px;
+  background-color: #9b59b6;
+  color: white;
+  border: none;
+  font-size: 1.5em;
+  cursor: pointer;
+}
+/* Use flexbox to position the buttons */
+.calculator-container {
+  display: flex;
+}
+.numbers {
+  flex: 3; /* take up 3/4 of the space */
+}
+.operators {
+  flex: 1; /* take up 1/4 of the space */
+}
+
